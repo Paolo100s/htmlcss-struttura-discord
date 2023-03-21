@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header */
 header{
     max-width: 100%;
 }
@@ -19,6 +20,7 @@ header{
 }
 
 #jumbotron{
+    
 }
 
 #jumbotron > h1{
@@ -29,12 +31,19 @@ header{
 
 #jumbotron > p{
     text-align: center;
-    margin-bottom: 30px;
+    margin: 30px 100px;
 }
 
-#jumbotron > button{
+.to-use > button{
+    margin: 10px 20px;
 }
 
+.to-use{
+    display: flex;
+    justify-content: center;
+}
+
+/* main */
 .section-container{
     width: 70%;
     margin: auto;
@@ -52,7 +61,23 @@ header{
 
 .last-column{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footer-nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 50px;
 }
 
 /* debug */
@@ -74,7 +99,7 @@ header{
     background-color: grey;
 }
 
-img{
+.image{
     width: 60%;
     background-color: blue;
     border: 3px solid black;
@@ -84,4 +109,13 @@ img{
     width: 40%;
     background-color: red;
     border: 3px solid black;
+}
+
+footer{
+    background-color: yellow;
+}
+
+.footer-nav{
+    height: 150px;
+    border-bottom: 1px solid black;
 }
