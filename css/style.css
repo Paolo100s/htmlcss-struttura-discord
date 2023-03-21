@@ -4,4 +4,45 @@
     box-sizing: border-box;
 }
 
+header{
+    max-width: 100%;
+}
+
+.top-head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.support{
+    list-style: none;
+    display: flex;
+}
+
+#jumbotron{
+}
+
+#jumbotron > h1{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#jumbotron > p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#jumbotron > button{
+}
+
+
 /* debug */
+header{
+    height: 400px;
+    background-color: aqua;
+}
+
+.top-head-container{
+    background-color: rgb(5, 121, 121);
+    border: 1px solid black;
+}
